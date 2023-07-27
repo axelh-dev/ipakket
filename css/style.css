@@ -24,8 +24,8 @@ html {
 
 .navbar-nav .nav-item .nav-link {
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: 700;
-  font-size: 1.3rem;
+  font-weight: 600;
+  font-size: 1.4rem;
 }
 
 @media (min-width: 992px) {
@@ -82,13 +82,13 @@ html {
 
 .text-1 {
   margin-bottom: 0.25rem;
-  font-size: 0.9rem;
+  font-size: 1rem;
   line-height: 1rem;
 }
 
 .text-2 {
   font-weight: 600;
-  font-size: 1.3rem;
+  font-size: 1.6rem;
 }
 
 .font-home {
@@ -104,9 +104,9 @@ html {
 
 @media (min-width: 375px) {
   .font-home {
-    font-size: 3rem;
+    font-size: 4rem;
   }
   .font-ipakket {
-    font-size: 4rem;
+    font-size: 5rem;
   }
 }
