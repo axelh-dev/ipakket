@@ -159,7 +159,7 @@ html {
 
 @media (max-width: 426px) {
   .text-start{
-  font-size: 1.4rem;
- padding: 0rem; 
+  font-size: 1.6rem;
+  padding: 0.4rem; 
   }
 }
