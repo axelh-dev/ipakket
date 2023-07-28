@@ -5,7 +5,8 @@
 }
 html {
   font-size: 62.5%;
-  font-family: "DM Sans", sans-serif;
+  font-family: "Poppins",sans-serif!important;
+
 }
 
 :root {
@@ -16,16 +17,22 @@ html {
 
 /* font-family: "Lora", serif; */
 /* font-family: "Oswald", sans-serif; */
-
+.navbar-nav .nav-item .nav-link {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.7rem;
+}
 .navbar-nav .nav-item .nav-link:hover {
   color: var(--color-primario);
   transition: color 0.3s ease-in-out;
 }
 
-.navbar-nav .nav-item .nav-link {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 600;
-  font-size: 1.4rem;
+.separator-header {
+  font-size: 3rem;
+  color: #9fa2a4;
+  font-weight: 400;
+}
+.navbar-collapse {
+  margin-right: 30px;
 }
 
 @media (min-width: 992px) {
@@ -108,5 +115,51 @@ html {
   }
   .font-ipakket {
     font-size: 5rem;
+  }
+}
+
+
+/* about-emp */
+
+.triangle{
+  width: 100%;
+  color: #fff;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.7rem;
+  position: relative;
+  background: #2B3035;
+}
+
+.triangle::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 95px 95px 95px;
+  border-color: transparent transparent #f9a328 transparent;
+  left: 13%;
+  transform: translateX(-50%);
+
+}
+
+
+.img-ipakket{
+  border-radius: 10px;
+}
+
+.text-start{
+  font-size: 2rem;
+ padding: 1rem; 
+ white-space: pre-wrap;
+}
+
+
+@media (max-width: 426px) {
+  .text-start{
+  font-size: 1.4rem;
+ padding: 0rem; 
   }
 }
