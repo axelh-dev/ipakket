@@ -136,13 +136,12 @@ body {
 .triangle::before {
   content: "";
   position: absolute;
-  bottom: 0px;
-  width: 0;
-  height: 0;
+  
   border-style: solid;
-  border-width: 95px 0px 95px 95px;
-  left: 0;
-  border-color: transparent transparent transparent #f9a2289a;
+  border-width: 95px 95px 95px 0;
+  border-color: transparent #f9a2289a transparent transparent;
+  top: 0px;
+  right: 0px;
 }
 
 .text-about-me {
@@ -213,27 +212,19 @@ body {
   height: 110vh;
   font-size: 1.7rem;
   position: relative;
-
-  background: rgb(251,164,0,1);
+  color: var(--color-tercer);
+  background: rgba(1, 1, 1, 0.1);
 }
 
-.triangle-how::before {
-  content: "";
-  position: absolute;
-  border-style: solid;
-  border-width: 95px 95px 95px 0;
-  border-color: transparent #f9a2289a transparent transparent;
-  top: 0px;
-  right: 0px;
-}
 .text-justify{
   font-size: 1.8rem;
   text-align: justify;
 }
-
+.list-group{
+  padding: 1rem;
+} 
 @media (max-width: 769px) {
   .text-justify{
-    font-size: 1.2rem;
-    text-align: justify;
+    font-size: 1.7rem;
   }
 }
