@@ -220,6 +220,8 @@ body {
 .text-justify {
   font-size: 1.6rem;
   text-align: justify;
+  font-family: "Poppins", sans-serif !important;
+
 }
 .list-group {
   padding: 1rem;
@@ -326,8 +328,9 @@ body {
 }
 
 .blog-card .description {
-  padding: 1rem;
-  background: #fff;
+  color: #fff;
+  padding: 2rem;
+  background-color: #2B3035;
   position: relative;
   z-index: 1;
 }
@@ -392,7 +395,7 @@ body {
   .blog-card .description:before {
     transform: skewX(-3deg);
     content: "";
-    background: #fff;
+    background-color: #2B3035;
     width: 30px;
     position: absolute;
     left: -10px;
@@ -421,6 +424,8 @@ body {
 }
 
 .text-description{
+  font-family: "Poppins", sans-serif !important;
+
   text-align: left;
 font-size: 1.6rem;
 }
