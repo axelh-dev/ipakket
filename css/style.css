@@ -15,7 +15,7 @@ body {
 }
 :root {
   --color-primario: #f9a328;
-  --color-secundario: #0000;
+  --color-secundario: #2b3035;
   --color-tercer: #ffffff;
 }
 
@@ -221,7 +221,6 @@ body {
   font-size: 1.6rem;
   text-align: justify;
   font-family: "Poppins", sans-serif !important;
-
 }
 .list-group {
   padding: 1rem;
@@ -252,7 +251,7 @@ body {
   background: #fff;
   line-height: 1.4;
   font-family: sans-serif;
-  border-radius: 5px;
+  border-radius: 15px;
   overflow: hidden;
   z-index: 0;
   min-height: 20rem;
@@ -330,7 +329,7 @@ body {
 .blog-card .description {
   color: #fff;
   padding: 2rem;
-  background-color: #2B3035;
+  background-color: #2b3035;
   position: relative;
   z-index: 1;
 }
@@ -395,7 +394,7 @@ body {
   .blog-card .description:before {
     transform: skewX(-3deg);
     content: "";
-    background-color: #2B3035;
+    background-color: #2b3035;
     width: 30px;
     position: absolute;
     left: -10px;
@@ -423,9 +422,52 @@ body {
   color: var(--color-primario);
 }
 
-.text-description{
+.text-description {
   font-family: "Poppins", sans-serif !important;
 
   text-align: left;
-font-size: 1.6rem;
+  font-size: 1.6rem;
+}
+
+.coverage-section {
+  width: 100%;
+  height: 100vw;
+  font-size: 1.7rem;
+  position: relative;
+  color: var(--color-tercer);
+  background: rgba(1, 1, 1, 0.4);
+}
+.contain-map {
+  width: 100%;
+  height: 100vw;
+  background-image: url(/assets/img/GT.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contain-map--contend {
+  border-radius: 10px;
+  padding: 2rem;
+  font-family: "Poppins", sans-serif !important;
+  text-align: center;
+  background: rgb(43, 48, 53, 0.8);
+  width: 80%;
+}
+
+.contain-map--contend .text-contain-map {
+  margin-top: 10px;
+  max-width: 50%;
+  font-size: 1.4rem;
+}
+@media (max-width: 805px) {
+  .contain-map--contend .text-contain-map {
+    font-size: 1.3rem;
+  }
+
+  .contain-map--contend spam {
+    font-size: 1.4rem;
+  }
+  .contain-map--contend {
+    width: 100%;
+  }
 }
