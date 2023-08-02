@@ -450,7 +450,7 @@ body {
   padding: 2rem;
   font-family: "Poppins", sans-serif !important;
   text-align: center;
-  background: rgb(43, 48, 53, 0.8);
+  background: rgb(43, 48, 53, 0.5);
   width: 80%;
 }
 
@@ -469,5 +469,11 @@ body {
   }
   .contain-map--contend {
     width: 100%;
+  }
+}
+@media (max-width: 450px) {
+
+  .contain-map--contend .text-contain-map {
+    max-width: 100%;
   }
 }
