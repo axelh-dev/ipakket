@@ -308,7 +308,6 @@ body {
 
 @media (max-width: 769px) {
   .card-vga{
-    margin-top: 10rem;
     min-width: 100%;
   }
   .card__content {
