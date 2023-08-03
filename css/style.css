@@ -471,9 +471,59 @@ body {
     width: 100%;
   }
 }
-@media (max-width: 450px) {
 
+@media (max-width: 450px) {
   .contain-map--contend .text-contain-map {
     max-width: 100%;
   }
+}
+
+.footer {
+  text-align: center;
+  font-size: 1.4rem;
+  color: var(--color-tercer);
+  background-color: var(--color-secundario);
+}
+
+.footer i {
+  font-size: 2rem;
+}
+
+.text-lg-end a {
+  color: var(--color-tercer);
+  font-size: 1.4rem;
+}
+.btn-social img {
+  height: 3rem;
+}
+
+.bi-faceboo {
+  color: blue !important;
+}
+#mainNav {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #212529;
+}
+#mainNav .navbar-toggler {
+  padding: 0.75rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+#mainNav .navbar-brand {
+  color: var(--color-primario);
+  font-weight: 700;
+  letter-spacing: 0.0625em;
+  text-transform: uppercase;
+}
+#mainNav .navbar-nav .nav-item .nav-link {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: #fff;
+  letter-spacing: 0.0625em;
+}
+#mainNav .navbar-nav .nav-item .nav-link.active,
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: var(--color-primario);
 }

@@ -25,7 +25,7 @@
 <body>
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top bg-dark border-bottom border-body "
-        data-bs-theme="dark">
+        data-bs-theme="dark" id="mainNav">
         <div class="container-fluid d-flex justify-content-between">
             <a class="navbar-brand" href="" style="width: 200px;">
                 <img src="./assets/img/navbar-logo.svg" alt="logo">
@@ -54,12 +54,12 @@
                     <p class="separator-header d-none  d-lg-block">|</p>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Zonas de Cobertura</a>
+                        <a class="nav-link" href="#coverage-section">Zonas de Cobertura</a>
                     </li>
                     <p class="separator-header d-none  d-lg-block">|</p>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="#footer-contact">Contacto</a>
                     </li>
                     <!-- <nav class="navbar bg-body-tertiary  ">
                         <form class="container-fluid justify-content-start">
@@ -223,7 +223,7 @@
      
     </section>
  
-    <section class="coverage-section position-relative"> 
+    <section class="coverage-section position-relative" id="coverage-section"> 
         <div class="contain-map"> 
 
         </div> 
@@ -232,6 +232,27 @@
             <p class="text-contain-map">Con nosotros puedes enviar y recibir paquetes, muebles y lo que quieras, el mismo día y en el momento que lo desees, iPakket es la única aplicación móvil diseñada para cubrir cualquier necesidad de envíos, sin que te cueste más.</p>
         </div>
     </section>
+
+    <footer class="footer py-4" id="footer-contact">
+        <div class="container">
+            <div class="row  align-items-center">
+                <span class="col-12 col-md-4 col-lg-4 text-lg-start">Copyright &copy; Ipakket corporation 2023</span>
+
+                <div class="col-12 col-md-4 col-lg-4 my-3 my-lg-0">
+                    <a class="btn btn-light btn-social mx-2" href="https://www.instagram.com/ipakket_gt/?hl=es-la" aria-label="Twitter"><img src="/assets/ico/instagram.png" alt=""></i></a>
+                    <a class="btn btn-light btn-social mx-2" href="https://www.facebook.com/profile.php?id=100091923770774" aria-label="Facebook"><img src="/assets/ico/facebook.png" alt=""></a>
+                    <a class="btn btn-light btn-social mx-2" href="https://www.tiktok.com/@ipakketguatemala" aria-label="Facebook"><img src="/assets/ico/tiktok.png" alt=""></a>
+                    <a class="btn btn-light btn-social mx-2" href="https://www.linkedin.com/company/ipakket/" aria-label="LinkedIn"><img src="/assets/ico/linkedin.png" alt=""></a> 
+                </div>
+
+                <div class="col-12 col-md-4 col-lg-4 text-lg-end">
+                    <a class="text-decoration-none me-3" href="https://ipakket.com/privacy">
+                        Política de privacidad</a>
+                    <a class="text-decoration-none" href="https://ipakket.com/terms">Términos de uso</a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
