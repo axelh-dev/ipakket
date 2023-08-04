@@ -497,13 +497,13 @@ body {
   height: 3rem;
 }
 
-.bi-faceboo {
-  color: blue !important;
-}
+
+
+
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #212529;
+  background-color: #0080ff;
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
@@ -526,4 +526,30 @@ body {
 #mainNav .navbar-nav .nav-item .nav-link.active,
 #mainNav .navbar-nav .nav-item .nav-link:hover {
   color: var(--color-primario);
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border: none;
+    background-color: transparent;
+    transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
+  }
+  #mainNav .navbar-brand {
+    transition: font-size 0.3s ease-in-out;
+  }
+  #mainNav .navbar-brand img {
+    transition: height 0.3s ease-in-out;
+  }
+  #mainNav.navbar-shrink {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background: transparent;
+
+  }
+  
+  #mainNav .navbar-nav .nav-item:last-child {
+    margin-right: 0;
+  }
 }
