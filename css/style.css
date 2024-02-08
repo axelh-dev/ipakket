@@ -245,7 +245,8 @@ body {
 }
 
 .section-service {
-  margin-top: 1em;
+  background: url(../assets/img/fondo--unit.svg) no-repeat;
+  background-color: rgb(43, 48, 53, 0.1);
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -448,7 +449,7 @@ body {
   font-size: 1.7rem;
   position: relative;
   color: var(--color-tercer);
-  background: rgba(1, 1, 1, 0.4);
+  background: var(--color-secundario);
 }
 .contain-map {
   width: 50%;
@@ -495,7 +496,8 @@ body {
   text-align: center;
   font-size: 1.4rem;
   color: var(--color-tercer);
-  background-color: var(--color-secundario);
+  background-color: var(--color-primario);
+  font-weight: 600;
 }
 
 .footer i {
