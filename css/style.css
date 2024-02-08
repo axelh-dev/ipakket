@@ -11,7 +11,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: inherit;
-  background-image: url(/assets/img/telefono.png);
 }
 :root {
   --color-primario: #f9a328;
@@ -28,6 +27,7 @@ body {
 .navbar-nav .nav-item .nav-link:hover {
   color: var(--color-primario);
   transition: color 0.3s ease-in-out;
+
 }
 
 .separator-header {
@@ -51,10 +51,10 @@ body {
 .container-fluid-header {
   width: 100%;
   height: 100vh;
-  /* background-image: url(/assets/img/header1.png);
+  background-image: url(/assets/img/telefono-head.png);
   background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed; */
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .playstore-button {
@@ -130,7 +130,7 @@ body {
   height: 100vh;
   font-size: 1.7rem;
   position: relative;
-  background: rgba(43, 48, 53, 0.3); /* Rojo con 50% de opacidad */
+  background: rgb(43, 48, 53) /* Rojo con 50% de opacidad */
 }
 
 .triangle::before {
@@ -139,17 +139,28 @@ body {
 
   border-style: solid;
   border-width: 95px 95px 95px 0;
-  border-color: transparent #f9a2289a transparent transparent;
+  border-color: transparent #ffa500 transparent transparent;
   top: 0px;
   right: 0px;
 }
 
 .text-about-me {
   margin-left: 20px;
+  background: rgb(43, 48, 53, 0.5);
+  padding: 3rem;
+  border-radius: 10px;
 }
 .img-ipakket {
   border-radius: 10px;
+  height: 80%;
+
 }
+
+/* Estilos para la imagen con efecto parallax *
+
+/* Resto de tus estilos */
+
+
 
 .text-start {
   font-size: 2rem;
@@ -215,6 +226,10 @@ body {
   position: relative;
   color: var(--color-tercer);
   background: rgba(1, 1, 1, 0.1);
+  background-image: url('../assets/img/telefono.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .text-justify {
@@ -431,16 +446,16 @@ body {
 
 .coverage-section {
   width: 100%;
-  height: 100vw;
+  height: 85vw;
   font-size: 1.7rem;
   position: relative;
   color: var(--color-tercer);
   background: rgba(1, 1, 1, 0.4);
 }
 .contain-map {
-  width: 100%;
-  height: 100vw;
-  background-image: url(/assets/img/GT.png);
+  width: 50%;
+  height: 50%;
+  background-image: url(/assets/img/guatema-depto.png);
   background-repeat: no-repeat;
   background-size: cover;
 }

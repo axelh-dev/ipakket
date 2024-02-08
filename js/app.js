@@ -47,4 +47,7 @@ window.addEventListener('DOMContentLoaded', event => {
 
 
 
-
+$(document).ready(function(){
+    $('.parallax-img').parallax();
+  });
+  
