@@ -518,3 +518,15 @@ body {
     margin-right: 0;
   }
 }
+
+
+.background-svg{
+  width: 100%;
+  background: url(../assets/img/fondo--unit-down.svg) ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  bottom:-0;
+  z-index: -12;
+}
