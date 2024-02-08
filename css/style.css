@@ -151,13 +151,13 @@ body {
 
 .text-about-me-home {
   background: rgb(43, 48, 53, 0.8);
-  padding: 3rem;
+  padding: 1rem;
   border-radius: 10px;
 }
 
 @media (max-width: 768px) {
   .text-about-me {
-    padding: 2rem;
+    padding: 3rem;
   }
 }
 
