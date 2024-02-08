@@ -27,7 +27,6 @@ body {
 .navbar-nav .nav-item .nav-link:hover {
   color: var(--color-primario);
   transition: color 0.3s ease-in-out;
-
 }
 
 .separator-header {
@@ -130,7 +129,7 @@ body {
   height: 100vh;
   font-size: 1.7rem;
   position: relative;
-  background: rgb(43, 48, 53) /* Rojo con 50% de opacidad */
+  background: rgb(43, 48, 53); /* Rojo con 50% de opacidad */
 }
 
 .triangle::before {
@@ -145,18 +144,21 @@ body {
 }
 
 .text-about-me {
-  margin-left: 20px;
   background: rgb(43, 48, 53, 0.8);
   padding: 3rem;
   border-radius: 10px;
 }
+
+@media (max-width: 768px) {
+  .text-about-me {
+    padding: 1rem;
+  }
+}
+
 .img-ipakket {
   border-radius: 10px;
   height: 80%;
-
 }
-
-
 
 .text-start {
   font-size: 2rem;
@@ -222,7 +224,7 @@ body {
   position: relative;
   color: var(--color-tercer);
   background: rgba(1, 1, 1, 0.1);
-  background-image: url('../assets/img/telefono.png');
+  background-image: url("../assets/img/telefono.png");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -508,9 +510,6 @@ body {
   height: 3rem;
 }
 
-
-
-
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -522,7 +521,7 @@ body {
   text-transform: uppercase;
 }
 
-.navbar-toggler span{
+.navbar-toggler span {
   font-size: 2rem;
 }
 #mainNav .navbar-brand {
@@ -561,9 +560,8 @@ body {
     padding-top: 1rem;
     padding-bottom: 1rem;
     background: transparent;
-
   }
-  
+
   #mainNav .navbar-nav .nav-item:last-child {
     margin-right: 0;
   }
