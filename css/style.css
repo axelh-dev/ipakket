@@ -100,7 +100,12 @@ body {
   font-weight: 600;
   font-size: 1.6rem;
 }
-
+/* .img-home-ipakket{
+  background-image: url(../assets/img/ipakket-guate.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+} */
 .font-home {
   color: var(--color-tercer);
   font-size: 5rem;
